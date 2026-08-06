@@ -4,12 +4,12 @@ export default function Header(){
 
     return(
         <header style={styles.header}>
-      {/* Logo da Barbearia */}
+      
       <div style={styles.logo}>
         <span>💈</span> BarberShop
       </div>
 
-      {/* Links de Navegação */}
+      
       <nav style={styles.nav}>
         <a href="#home" style={styles.navLink}>Início</a>
         <a href="#cortes" style={styles.navLink}>Cortes & Serviços</a>
@@ -17,7 +17,7 @@ export default function Header(){
         <a href="#erp" style={styles.navLink}>Área Restrita</a>
       </nav>
 
-      {/* Botão de Destaque */}
+      
       <div>
         <button style={styles.ctaButton}>Agendar Horário</button>
       </div>

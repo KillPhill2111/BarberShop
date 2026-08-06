@@ -7,7 +7,7 @@ export default function Footer(){
     <footer style={styles.footer}>
       <div style={styles.footerContainer}>
         
-        {/* Coluna 1: Sobre / Logo */}
+        
         <div style={styles.column}>
           <h3 style={styles.logo}>💈 BarberShop</h3>
           <p style={styles.text}>
@@ -15,7 +15,7 @@ export default function Footer(){
           </p>
         </div>
 
-        {/* Coluna 2: Endereço e Contato */}
+        
         <div style={styles.column}>
           <h4 style={styles.title}>📍 Onde Estamos</h4>
           <p style={styles.text}>Avenida dos Cabeleireiros, 1000</p>
@@ -32,7 +32,7 @@ export default function Footer(){
           <p style={styles.text} styles={{ ...styles.text, color: '#ff4d4d' }}>Domingo e Segunda: Fechado</p>
         </div>
 
-        {/* Coluna 4: Redes Sociais Simuladas */}
+        
         <div style={styles.column}>
           <h4 style={styles.title}>📱 Siga-nos</h4>
           <div style={styles.socialContainer}>
@@ -43,7 +43,7 @@ export default function Footer(){
 
       </div>
 
-      {/* Barra de Direitos Autorais */}
+      
       <div style={styles.copyright}>
         <p>&copy; {currentYear} BarberShop. Todos os direitos reservados.</p>
         <p style={styles.subCopyright}>Desenvolvido para portfólio profissional</p>
