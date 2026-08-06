@@ -4,7 +4,7 @@
 
 #### 👥 Créditos e Origem do Projeto:
 
-* Estre projeto é uma versão atualizada de um software desenvolvido na epóca da Fatec, com os colegas Lucas Bianchini, Felipe Donizette e Fernando Fonseca.
+* Este projeto é uma versão atualizada de um software desenvolvido na epóca da Fatec, com os colegas Lucas Bianchini, Felipe Donizette e Fernando Fonseca.
 
 ### 📝 Descrição
 Este projeto é voltado para o gerenciamento de uma barbearia, permitindo que o cliente navegue entre os cortes oferecidos pelo estabelecimento e marque horários com o profissional de sua escolha. 
