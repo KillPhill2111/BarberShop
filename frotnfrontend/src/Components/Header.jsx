@@ -1,26 +1,26 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Header(){
 
     return(
-        <header style={styles.header}>
+      <header style={styles.header}>
       
-      <div style={styles.logo}>
-        <span>💈</span> BarberShop
-      </div>
+        <div style={styles.logo}>
+          <span>💈</span> BarberShop
+        </div>
+        <nav style={styles.nav}>
+          <Link to="/" style={styles.navLink}>Início</Link>
+          <Link to="/cortes" style={styles.navLink}>Cortes & Serviços</Link>
+          <Link to="/sobre" style={styles.navLink}>A Barbearia</Link>
+          <Link to="/erp" style={styles.navLink}>Área Restrita</Link>
+        </nav>
 
-      
-      <nav style={styles.nav}>
-        <a href="#home" style={styles.navLink}>Início</a>
-        <a href="#cortes" style={styles.navLink}>Cortes & Serviços</a>
-        <a href="#sobre" style={styles.navLink}>A Barbearia</a>
-        <a href="#erp" style={styles.navLink}>Área Restrita</a>
-      </nav>
-
-      
-      <div>
-        <button style={styles.ctaButton}>Agendar Horário</button>
-      </div>
+        <div>
+          <Link to="/cortes">
+            <button style={styles.ctaButton}>Agendar Horário</button>
+          </Link>
+        </div>
     </header>
     )
 }
