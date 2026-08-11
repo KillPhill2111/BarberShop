@@ -35,3 +35,4 @@ D:\Dados\Filipe\Projetos de desenvolvimento e programação\technoBarber-github\
 D:\Dados\Filipe\Projetos de desenvolvimento e programação\technoBarber-github\BarberShop\backend\BarberShop.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Dados\Filipe\Projetos de desenvolvimento e programação\technoBarber-github\BarberShop\backend\BarberShop.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Dados\Filipe\Projetos de desenvolvimento e programação\technoBarber-github\BarberShop\backend\BarberShop.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dados\Filipe\Projetos de desenvolvimento e programação\technoBarber-github\BarberShop\backend\BarberShop.API\bin\Debug\net10.0\BarberShop.API.staticwebassets.runtime.json

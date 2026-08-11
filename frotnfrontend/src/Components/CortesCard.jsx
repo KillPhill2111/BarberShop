@@ -8,9 +8,9 @@ const CortesCard = ({ corte, onSelecionar }) => {
   }).format(corte.preco);
 
   // Tratamento para imagens: substitui caminhos relativos quebrados por fotos reais de barbearia
-  const imagemValida = corte.imagemUrl && !corte.imagemUrl.startsWith('../')
-    ? corte.imagemUrl
-    : 'https://unsplash.com'; 
+  const imagemValida = corte.imagemUrl 
+  ? `http://localhost:5265${corte.imagemUrl}`
+  : 'https://unsplash.com';
 
   return (
     <div style={styles.card}>

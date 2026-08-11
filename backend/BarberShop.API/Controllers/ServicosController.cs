@@ -10,10 +10,10 @@ namespace BarberShop.API.Controllers
         private static readonly List<Servico> _servicos= new List<Servico>
         {
             //categoria de cortes de cabelo -- DEGRADÊ:
-            new Servico{Id=1, Nome="Low Fade", Preco=45.00m,TempoEmMinutos=30, ImagemUrl="../", Categoria="Estilos com degradê"},
-            new Servico{Id=2, Nome="Mid Fade", Preco=45.00m,TempoEmMinutos=30, ImagemUrl="../",  Categoria="Estilos com degradê"},
-            new Servico{Id=3, Nome="High Fade", Preco=45.00m,TempoEmMinutos=35, ImagemUrl="../",  Categoria="Estilos com degradê"},
-            new Servico{Id=4, Nome="Taper Fade (Estilo americano)", Preco=40.00m,TempoEmMinutos=25, ImagemUrl="../",  Categoria="Estilos com degradê"},
+            new Servico{Id=1, Nome="Low Fade", Preco=45.00m,TempoEmMinutos=30, ImagemUrl="/imagens-estaticas/low-fade.jpg", Categoria="Estilos com degradê"},
+            new Servico{Id=2, Nome="Mid Fade", Preco=45.00m,TempoEmMinutos=30, ImagemUrl="/imagens-estaticas/mid-fade.jpg",  Categoria="Estilos com degradê"},
+            new Servico{Id=3, Nome="High Fade", Preco=45.00m,TempoEmMinutos=35, ImagemUrl="/imagens-estaticas/high-fade.jpg",  Categoria="Estilos com degradê"},
+            new Servico{Id=4, Nome="Taper Fade (Estilo americano)", Preco=40.00m,TempoEmMinutos=25, ImagemUrl="/imagens-estaticas/taper-fade.jpg",  Categoria="Estilos com degradê"},
 
             //categoria de cortes de cabelo -- MODRNOS COM VOLUME NO TOPO
             new Servico { Id = 5, Nome = "Undercut", Preco = 40.00m, TempoEmMinutos = 30, ImagemUrl = "/imagens-estaticas/undercut.jpg", Categoria = "Estilos Modernos" },

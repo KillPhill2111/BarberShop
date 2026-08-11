@@ -1,3 +1,5 @@
+using Microsoft.Extensions.FileProviders;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -28,13 +30,16 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "wwwroot")),
+    RequestPath = "" // Deixa o caminho limpo partindo da raiz da URL
+});
 
 app.UseCors("ReactApp");
 
-
 // app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 
